@@ -1,9 +1,33 @@
 .sectin1ParentGener{
     margin-top: 10%;
+    margin-bottom: 5%;
+}
+body{
+    overflow-x: hidden;
+}
+
+.erachSectionSection2Gene{
+   box-shadow: 0px 0px 13px rgb(166, 166, 166);
+   padding-bottom: 3%;
+   padding-top: 2%;
+   
+}
+
+.icons1resume{
+    font-size: 40px;
+    color:  blue;
+}
+
+.icons1resume11{
+    font-size: 40px;
+    color: red;
 }
 
 
-.erachSectionSection2Gene{
-   box-shadow: 0px 0px 5px black;
-   
+.btnGenerSection1{
+    background-color: #350463;
+    color: white;
+    padding: 10px 13px;
+    border-radius: 6px;
+    border: none;
 }
