@@ -77,7 +77,7 @@ const Home = () => {
           <h2 className="text-center mt-4">Testimony</h2>
 
           <div className="row ms-5">
-            <div className="col-6 mt-3">
+            <div className="col-md-6 mt-3 col-12">
               <h3>Trusted by professionals worldwide.</h3>
               <p>
                 At LiveCareer, we don't just help you create résumés — we help
@@ -91,7 +91,7 @@ const Home = () => {
                 fast-tracked their careers with a résumé that truly stands out.</p> 
              
             </div>
-            <div className="col-6">
+            <div className="col-md-6 col-12">
               <div className="row mt-2">
                 <div className="col-3">
                   <img className="imaheSection3" src={image1} alt="" />
@@ -121,7 +121,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="row mt-2">
-                <div className="col-3 h-50">
+                <div className="col-3">
                   <img className="imaheSection3" src={image1} alt="" />
                 </div>
                 <div className="col-3">
