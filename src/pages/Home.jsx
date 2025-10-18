@@ -5,6 +5,7 @@ import image2 from "../assets/grid2.png"
 import image3 from "../assets/grid3.png"
 import image4 from "../assets/grid7.png"
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 
 const Home = () => {
@@ -21,7 +22,8 @@ const Home = () => {
               </h3>
             </div>
             <div className="text-center">
-              <button className="makeResumeBtn">MAKE YOUR RESUME</button>
+              <Link to={"/resumeGenerator"} ><button className="makeResumeBtn">MAKE YOUR RESUME</button></Link>
+              
             </div>
           </div>
         </div>
