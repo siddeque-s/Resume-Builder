@@ -3,6 +3,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faMobileScreen } from "@fortawesome/free-solid-svg-icons";
 import { faWhatsapp, faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import "./Footer.css"
+import { FaEnvelope } from "react-icons/fa";
+import { GoDeviceMobile } from "react-icons/go";
 const Footer = () => {
   return (
     <div className="footerMegaParent text-center">
@@ -10,10 +12,10 @@ const Footer = () => {
 
       <div className="mt-3">
         <p>
-          <FontAwesomeIcon icon={faEnvelope} /> rbuilder@gmail.com
+          <FaEnvelope /> rbuilder@gmail.com
         </p>
         <p>
-          <FontAwesomeIcon icon={faMobileScreen} /> 9898989898
+          <GoDeviceMobile /> 9898989898
         </p>
       </div>
 

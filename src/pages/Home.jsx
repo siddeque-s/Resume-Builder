@@ -11,6 +11,8 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <>
+
+    
     {/* section1 */}
       <div className="megaparentFranfdfather">
         <div className="sesction1MegaParent d-flex justify-content-center align-items-center">
