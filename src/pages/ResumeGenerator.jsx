@@ -3,6 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFileArrowDown, faFileLines } from '@fortawesome/free-solid-svg-icons';
 import "./ResumeGenerator.css"
 import Footer from '../components/Footer';
+import { Link } from 'react-router-dom';
+
 
 const ResumeGenerator = () => {
   return (
@@ -36,7 +38,10 @@ const ResumeGenerator = () => {
             <div className="col-md-1"></div>
           </div>
           <div className='parentbtnresume text-center mt-5'>
+            <Link to={"/form"}>
             <button className='btnGenerSection1'>LET'S START</button>
+            </Link>
+            
           </div>
         </div>
         <Footer/>
